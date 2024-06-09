@@ -36,3 +36,8 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+## Accessing the Application
+
+- **CloudFront URL**: https://ds9223j8awrst.cloudfront.net/
+- **S3 Website URL**: http://node.js-aws-app.s3-website-eu-west-1.amazonaws.com/
