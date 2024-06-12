@@ -18,6 +18,8 @@ const stack = new cdk.Stack(app, "nodejsAwsAppStack", {
 
 const bucket = new s3.Bucket(stack, "node.jsAwsAppBucket", {
   bucketName: "node.js-aws-app",
+  publicReadAccess: false,
+  blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
 });
 
 const originAccessIdentity = new cf.OriginAccessIdentity(
